@@ -14,7 +14,7 @@ A jornada passa por **dívida técnica, princípios SOLID, testes, padrões de p
 - **Cada aula tem a sua própria pasta** (`aula01/`, `aula02/`…), com o código de partida daquela aula. Você **não** precisa ter feito as aulas anteriores — cada uma é independente.
 - Os **exemplos variam** de aula para aula (domínios diferentes), para você ver cada conceito em vários contextos.
 - O **link de cada aula é ativado na semana correspondente** — antes disso, aparece como 🔒.
-- **Faça um _fork_ deste repositório** para a sua conta e trabalhe na sua cópia. Tudo roda no navegador, sem instalar nada (GitHub Codespaces — já configurado neste repo).
+- **Faça um _fork_ deste repositório** (`github.com/fab-araujo/bsi-fpsm-2026.1-ESII`) para a sua conta e trabalhe na sua cópia. Tudo roda no navegador, sem instalar nada (GitHub Codespaces — já configurado neste repo).
 
 ## Aulas
 
