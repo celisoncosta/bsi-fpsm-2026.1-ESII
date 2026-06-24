@@ -13,8 +13,8 @@ class Pedido:
 
     def adicionar(self, item: Item) -> None:
         # TODO: acrescentar o item à lista self.itens
-        ...
+        self.itens.append(item)
 
     def total(self) -> float:
         # TODO: somar o subtotal() de cada item
-        ...
+        return sum(item.subtotal() for item in self.itens)
