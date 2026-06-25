@@ -21,7 +21,11 @@ classDiagram
     %% ===== AGORA VOCÊ: troque os ... pelos atributos/métodos de cada classe =====
     %% (use - para privado e + para público, como no exemplo do Aluno)
     class AlunoRepo {
-        ...
+        -alunos: list
+        -proximo_id: int
+        +salvar(aluno: Aluno)
+        +buscar_por_nome(nome: str) Aluno
+        +listar() list
     }
 
     class Notificador {
@@ -29,7 +33,8 @@ classDiagram
     }
 
     class AcademiaService {
-        ...
+        +matricular(nome: str, plano: str)
+        +fazer_checkin(nome: str)
     }
 
     %% Ligações (quem usa quem). As 3 já estão prontas — não precisa mexer.
