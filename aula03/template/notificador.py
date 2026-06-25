@@ -10,4 +10,4 @@ class Notificador:
         # TODO: mostre a notificação SEMPRE no mesmo formato:
         #   [WhatsApp para <destinatario>] <mensagem>
         # Dica: um único print(f"...") com {destinatario} e {mensagem} resolve.
-        ...
+        print(f"[WhatsApp para {destinatario}] {mensagem}")
