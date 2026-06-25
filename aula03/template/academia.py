@@ -34,7 +34,8 @@ class Academia:
 
         # TODO: troque o aviso de boas-vindas por uma chamada ao notificador.
         #   self.notificador.enviar( <para quem>, <a MESMA mensagem de boas-vindas da v1.0> )
-        ...
+        # TODO: troque o aviso de boas-vindas por uma chamada ao notificador.
+        self.notificador.enviar(nome, "Bem-vindo à Academia FitPará!")
 
         print(f"Aluno {aluno['id']} matriculado.")   # TELA: este fica
 
@@ -52,7 +53,10 @@ class Academia:
 
         # TODO: troque o aviso de confirmação por uma chamada ao notificador.
         #   self.notificador.enviar( <para quem>, <a MESMA mensagem de check-in da v1.0> )
-        ...
+        aluno["checkins"] += 1
+
+        # TODO: troque o aviso de confirmação por uma chamada ao notificador.
+        self.notificador.enviar(nome, "Check-in realizado com sucesso!")
 
         print(f"Check-in de {nome} registrado. Total: {aluno['checkins']}.")   # TELA: este fica
 
