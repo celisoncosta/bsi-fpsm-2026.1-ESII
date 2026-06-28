@@ -9,6 +9,10 @@ class Ingresso:
     def preco(self) -> float:
         ...
 
+class Cortesia(Ingresso):
+    def preco(self) -> float:
+        return 0.0
+
 
 class Inteira(Ingresso):
     def preco(self):
