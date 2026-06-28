@@ -9,8 +9,11 @@ from servico.newsletter import ServicoNewsletter
 #   - no __init__:  self.enviados = []
 #   - em enviar(self, para, texto):  self.enviados.append(para)
 class FakeEmail:
-    pass   # <- apague o "pass" e escreva o __init__ e o enviar()
+    def __init__(self):
+        self.enviados = []  # Inicializa a lista vazia para anotar os e-mails
 
+    def enviar(self, para, texto):
+        self.enviados.append(para)  # Apenas anota quem receberia, sem mandar de verdade
 
 if __name__ == "__main__":
     repo = RepositorioAssinantes()
