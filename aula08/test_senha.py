@@ -28,8 +28,8 @@ def test_senha_sem_maiuscula_avisa():
 #
 #   1. RED  — escreva PRIMEIRO o teste abaixo e rode pytest (deve FALHAR):
 #
-#          def test_senha_sem_minuscula_avisa():
-#              assert validar("ABCDEFG1") == ["precisa de uma letra minúscula"]
+def test_senha_sem_minuscula_avisa():
+    assert validar("ABCDEFG1") == ["precisa de uma letra minúscula"]
 #
 #   2. GREEN — agora adicione UMA LINHA na tabela 'regras' do senha.py
 #             (foi para isso que a gente refatorou!):
