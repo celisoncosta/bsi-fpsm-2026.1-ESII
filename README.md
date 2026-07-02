@@ -29,7 +29,7 @@ A jornada passa por **dívida técnica, princípios SOLID, testes, padrões de p
 | **6** | **Prova escrita 1** | — |
 | 7 | Testes de Unidade, Integração e Cobertura | [📂 **aula07**](aula07/) |
 | 8 | TDD — Desenvolvimento Guiado por Testes | [📂 **aula08**](aula08/) |
-| 9 | Padrões de Projeto (Factory, Facade, Strategy, Observer) | 🔒 *em breve* |
+| 9 | Padrões de Projeto (Factory, Facade, Strategy, Observer) | [📂 **aula09**](aula09/) |
 | 10 | Refactoring, Code Smells e Pipeline CI/CD | 🔒 *em breve* |
 | **11** | **Prova escrita 2** | — |
 | **12** | **Avaliação Substitutiva (recuperação)** | — |
