@@ -33,7 +33,11 @@ class EntregaBicicleta(Entrega):
 
 class Retirada(Entrega):
     def preco(self, distancia_km):
-        return 0.0                             # o cliente busca na loja: de graça
+        return 0.0
+    
+class EntregaDrone(Entrega):
+    def preco(self, distancia_km):
+        return 8.0 + 3.0 * distancia_km                             # o cliente busca na loja: de graça
 
 
 # ----------------------------------------------------------------------
@@ -49,6 +53,7 @@ def criar_entrega(nome):
         "moto": EntregaMoto,
         "bici": EntregaBicicleta,
         "retirada": Retirada,
+        "drone": EntregaDrone,
     }
     if nome not in opcoes:
         raise ValueError(f"forma de entrega desconhecida: {nome!r}")

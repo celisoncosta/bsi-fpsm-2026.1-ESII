@@ -73,3 +73,7 @@ def test_observador_inscrito_recebe_o_evento():
 #              from acaiteria import EntregaDrone
 #              assert EntregaDrone().preco(2) == 14.0      # 8 + 3*2
 # ------------------------------------------------------------------
+
+def test_drone_cobra_taxa_fixa_mais_por_km():
+    from acaiteria import EntregaDrone
+    assert EntregaDrone().preco(2) == 14.0      # 8 + 3*2
